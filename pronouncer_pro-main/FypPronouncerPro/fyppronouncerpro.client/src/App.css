@@ -1,0 +1,114 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Oxygen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text:ital@1&family=EB+Garamond&family=Fjalla+One&family=Great+Vibes&family=Monoton&family=Philosopher&family=Playfair+Display+SC&family=Source+Sans+3:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.DemoPageBackground {
+    /*background-image: linear-gradient(to bottom, rgb(2, 4, 13, 0.80), rgb(0, 2, 7, 0.83)), url('assets/demo.jpg');
+    background-size: cover;*/
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeLink {
+    background-color: #dbf1fb;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    padding: 5px 20px;
+    border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+}
+
+.lessonLink {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .lessonLink:hover {
+        color: #f5f5f5;
+    }
+.PinkBtn {
+    background: transparent;
+    border: 1px solid #f02e4e;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #f02e4e;
+    font-size: 20px;
+    font-family: Manrope;
+    letter-spacing: 2px;
+}
+
+.filterButton {
+    padding: 5px 10px;
+    border-radius: 60%;
+    margin-left: 10px;
+    background: #f02e4e;
+    border: none;
+    color: #f2f5fa;
+    cursor:pointer;
+}
+
+.roundStyle{
+    border-right: 1px solid #ffffff;
+    margin-right: 10px;
+}
+
+.transparentButton {
+    border: none;
+    background: transparent;
+    color: #f2f5fa;
+    cursor: pointer;
+}
+
+.menuButton {
+    display: flex;
+    align-items: flex-end;
+    background: transparent;
+    color: #f2f5fa;
+    font-size: 20px;
+    border: none;
+    letter-spacing: 1px;
+    font-family: Manrope;
+}
+
+    .menuButton:hover {
+        cursor: pointer;
+        /*        padding:10px 15px;
+        background: linear-gradient(rgb(249, 251, 251, 0.10), rgb(252, 252, 251, 0.09));
+        backdrop-filter: blur(10px);*/
+    }
+
+
+.ZoomAnimation {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        background-color: #bedffa;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+        background-color: #ffffff;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background-color: #bedffa;
+    }
+}
